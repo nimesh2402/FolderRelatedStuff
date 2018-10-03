@@ -5,6 +5,7 @@ public static void main(String[] str) throws Exception {
 	RestAssured.baseURI ="http://198.58.98.34:4350/api/user";
 	RequestSpecification request = RestAssured.given();
 	
+	
 	JSONObject requestParams = new JSONObject();
 	requestParams.put("email", "flydemo1@mailinator.com"); 
 	requestParams.put("pass", "demo123#");
